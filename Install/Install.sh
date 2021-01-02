@@ -4,12 +4,13 @@ cd ~
 git clone https://aur.archlinux.org/yay.git 
 cd yay 
 makepkg -si
-cd ~/ArchInstall/Workflow/
 yay -S polybar github-desktop-bin typora brother-dcpj315w brscan3 clipit cava i3lock-color libinput-gestures ly picom-git pyinstaller rofi-bluetooth-git rtl8821ce-dkms-git siji-git teams termsyn-font ttf-material-icons-git ttf-ms-fonts waifu2x-ncnn-vulkan-git wd719x-firmware xava-git ttf-roboto
 sudo systemctl enable ly 
-sudo cp -rf etc /
+sudo cp -rf ~/.settings/Install/etc /
 mkdir ~/.config
-cp -rf home/speece/.settings /home/speece/
+cd ~
+git clone https://github.com/by-speece/.settings
+rn -rf ~/.config
 rm -rf ~/.config/dunst
 ln -s ~/.settings/.config/dunst		~/.config/
 rm -rf ~/.config/i3
@@ -48,3 +49,4 @@ cp -rf ~/.settings/.zshrc.zni		~/
 rm -rf ~/.config/alacritty
 cp -rf ~/.settings/.config/alacritty	~/.config/
 sudo chmod +s /usr/bin/light
+sh ~/.settings/Update/Update.sh
