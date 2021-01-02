@@ -17,4 +17,5 @@ rm -rf ~/.zshrc
 cp -rf ~/.settings/.zshrc	~/
 rm -rf ~/.zshrc.zni
 cp -rf ~/.settings/.zshrc.zni	~/
+sudo gpasswd -a $USER input
 echo Całe DE zostało uaktualnione

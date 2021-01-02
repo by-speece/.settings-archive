@@ -14,6 +14,8 @@ rm -rf ~/.config/dunst
 ln -s ~/.settings/.config/dunst		~/.config/
 rm -rf ~/.config/i3
 ln -s ~/.settings/.config/i3		~/.config/
+rm -rf ~/.config/Typora
+ln -s ~/.settings/.config/Typora	~/.config/
 rm -rf ~/.config/mpv
 ln -s ~/.settings/.config/mpv		~/.config/
 rm -rf ~/.config/nautilus

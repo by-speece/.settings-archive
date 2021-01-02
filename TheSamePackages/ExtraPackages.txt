@@ -8,4 +8,4 @@ libcaca
 mediainfo
 odt2txt
 poppler
-
+gedit

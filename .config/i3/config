@@ -301,8 +301,11 @@ bindsym $mod+n [class="Typora"] scratchpad show; [class="Typora"] move position 
 exec --no-startup-id clipit 
 
 #Signal
-exec --no-startup-id signal
+exec --no-startup-id Signal
 for_window [class="Signal"] move scratchpad 
 for_window [class="Signal"] floating enable 
 for_window [class="Signal"] resize set 1000 800
 bindsym $mod+k [class="Signal"] scratchpad show; [class="Signal"] move position center
+
+#libinput-gestures
+exec --no-startup-id libinput-gestures-setup start
