@@ -9,3 +9,4 @@ mediainfo
 odt2txt
 poppler
 gedit
+man

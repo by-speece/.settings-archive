@@ -3,7 +3,7 @@ git pull
 cd ~/.settings/TheSamePackages
 echo Uaktualnianie Pakietów
 sh start.sh
-cd ~/.settings/Install-Update
+cd ~/.settings/Update
 echo Czyszczenie systemu
 sh clean.sh
 echo Uaktualnianie Plików Statycznych
@@ -19,3 +19,5 @@ rm -rf ~/.zshrc.zni
 cp -rf ~/.settings/.zshrc.zni	~/
 sudo gpasswd -a $USER input
 echo Całe DE zostało uaktualnione
+echo Uaktualnianie Lockscreenu
+betterlockscreen -u ~/.settings/.config/i3/wp/lockscreen.png
