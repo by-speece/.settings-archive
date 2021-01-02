@@ -1,0 +1,11 @@
+nano-syntax-highlighting
+gst-libav
+atool
+elinks
+ffmpegthumbnailer
+highlight
+libcaca
+mediainfo
+odt2txt
+poppler
+
