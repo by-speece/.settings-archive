@@ -5,7 +5,7 @@ cd ~
 git clone https://aur.archlinux.org/yay.git 
 cd yay 
 makepkg -si
-yay -S paper-icon-theme-git polybar github-desktop-bin typora brother-dcpj315w brscan3 clipit cava i3lock-color libinput-gestures ly picom-git pyinstaller rofi-bluetooth-git rtl8821ce-dkms-git siji-git teams termsyn-font ttf-material-icons-git ttf-ms-fonts waifu2x-ncnn-vulkan-git wd719x-firmware xava-git ttf-roboto
+yay -S paper-icon-theme-git betterlockscreen polybar github-desktop-bin typora brother-dcpj315w brscan3 clipit cava i3lock-color libinput-gestures ly picom-git pyinstaller rofi-bluetooth-git rtl8821ce-dkms-git siji-git teams termsyn-font ttf-material-icons-git ttf-ms-fonts waifu2x-ncnn-vulkan-git wd719x-firmware xava-git ttf-roboto
 sudo systemctl enable ly 
 sudo cp -rf ~/.settings/Install/etc /
 mkdir ~/.config
