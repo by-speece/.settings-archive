@@ -286,14 +286,14 @@ for_window [class="Blueman-manager"] move position center
 exec --no-startup-id rhythmbox
 for_window [class="Rhythmbox"] move scratchpad
 for_window [class="Rhythmbox"] floating enable
-for_window [class="Rhythmbox"] resize set 800 600
+for_window [class="Rhythmbox"] resize set 1250 700
 bindsym $mod+p [class="Rhythmbox"] scratchpad show; [class="Rhythmbox"] move position center
 
 #Typora
 exec --no-startup-id typora
 for_window [class="Typora"] move scratchpad
 for_window [class="Typora"] floating enable
-for_window [class="Typora"] resize set 1000 800 
+for_window [class="Typora"] resize set 1300 800 
 bindsym $mod+n [class="Typora"] scratchpad show; [class="Typora"] move position center
 
 #Clipit
@@ -301,7 +301,7 @@ bindsym $mod+n [class="Typora"] scratchpad show; [class="Typora"] move position 
 exec --no-startup-id clipit 
 
 #Signal
-exec --no-startup-id Signal
+exec --no-startup-id signal-desktop
 for_window [class="Signal"] move scratchpad 
 for_window [class="Signal"] floating enable 
 for_window [class="Signal"] resize set 1000 800
