@@ -1,5 +1,4 @@
 cd ~/.settings 
-git push
 git pull
 cd ~/.settings/TheSamePackages
 echo Uaktualnianie Pakietów
