@@ -1,11 +1,11 @@
 cd ~/.settings 
 git pull
-cd ~/.settings/TheSamePackages
+cd ~/.settings/PacmanSync
 echo Uaktualnianie Pakietów
+echo Czyszczenie Systemu
 sh start.sh
 cd ~/.settings/Update
 echo Czyszczenie systemu
-sh clean.sh
 echo Uaktualnianie Plików Statycznych
 rm ~/.config/gtk-3.0
 ln -s ~/.settings/.config/gtk-3.0		~/.config/
