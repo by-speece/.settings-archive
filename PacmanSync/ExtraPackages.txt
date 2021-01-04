@@ -11,3 +11,4 @@ poppler
 gedit
 man
 signal-desktop
+atom
